@@ -1,0 +1,92 @@
+body {
+    background: #222;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 4rem;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr 160px 160px 1fr;
+    color: grey;
+    font-size: 1.8rem;
+}
+
+.left {
+    grid-column: 2;
+    background: #2A2A2A;
+}
+
+.right {
+    grid-column: 3;
+    font-family: monospace;
+
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    background: #1E1E1E;
+    color: lightgrey;
+    width: 120px;
+    height: 60px;
+    border: 1;
+    border-color: black;
+}
+
+button:hover {
+    background: #333;
+}
+
+textarea {
+    height: 2.2rem;
+    background: #111;
+    border: none;
+    outline: none;
+    resize: none;
+    font-family: monospace;
+    font-size: 1.8rem;
+    text-align: center;
+    color: grey;
+}
+
+#sm {
+    display: grid;
+    grid-template-columns: 1fr 190px 190px 1fr;
+}
+
+#score {
+    color: green;
+    font-size: 2rem;
+    grid-column: 2;
+    text-align: center;
+}
+
+#mistakes {
+    color: darkred;
+    font-size: 2rem;
+    text-align: center;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    color: darkgoldenrod;
+}
+
+a:visited {
+    color: yellow;
+}
+
+a:hover {
+    color: orangered;
+}

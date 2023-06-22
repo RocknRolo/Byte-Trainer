@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Byte Trainer</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>Byte Trainer</small></header>
+    <br><br>
+
+    <div id="bin" class="main">
+        <div id="bin_label" class="left">Binary</div>
+        <textarea id="bin_text" class="right" maxlength="8"></textarea>
+    </div>
+    <br><br>
+    
+    <div id="dec" class="main">
+        <div id="dec_label" class="left">Decimal</div>
+        <textarea id="dec_text" class="right" maxlength="3"></textarea>
+    </div>
+    <br><br>
+    
+    <div id="hex" class="main">
+        <div id="hex_label" class="left">Hexadecimal</div>
+        <textarea id="hex_text" class="right" maxlength="2"></textarea>
+    </div>
+    <br><br>
+
+    <div class="center">
+        <button onclick="checkAnswer()">Submit<br><small>(Enter)</small></button>
+    </div>
+    <br><br>
+
+    <div id="sm">
+        <div id="score">
+            <div id="score_label">Score: </div><div id="score_text">0</div>
+        </div>
+        <div id="mistakes">
+            <div id="mistakes_label">Mistakes: </div><div id="mistakes_text">0</div>
+        </div>
+    </div>
+    <br>
+    <a href="https://rocknrolo.github.io/">RocknRolo</a>
+</body>
+</html>
